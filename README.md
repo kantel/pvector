@@ -1,12 +1,12 @@
-# pvector
+# PVector
 
-Eine einfache Vektorklasse für Python, die ich ursprünglich für die Nutzung mit [NodeBox 1](https://github.com/karstenw/nodebox-pyobjc) geschrieben hatte. Sie ist in Anlehnung an die pvector-Klasse von Processing (Java) geschrieben und so allgemein gehalten, daß sie auch mit anderen Bibliotheken laufen sollte. Getestet habe ich sie -- neben der NodeBox -- bisher mit Pythons Turtle-Modul und mit [P5 (Python)](https://github.com/p5py/p5).
+Eine einfache 2D-Vektorklasse für Python, die ich ursprünglich für die Nutzung mit [NodeBox 1](https://github.com/karstenw/nodebox-pyobjc) geschrieben hatte. Sie ist in Anlehnung an die PVector-Klasse von Processing (Java) geschrieben und so allgemein gehalten, daß sie auch mit anderen Bibliotheken laufen sollte. Getestet habe ich sie -- neben der NodeBox -- bisher mit Pythons Turtle-Modul und mit [P5 (Python)](https://github.com/p5py/p5).
 
-Die Klasse läuft mit Python 2.7 **und** mit Python >0= 3.5, sie sollte daher auch unter PyGame und unter Jython[ (TigerJython](http://jython.tobiaskohn.ch/index-de.html)) lauffähig sein. Bisher einzige Abhängigkeiten sind die Module `math` und `random` aus der Standardbibliothek.
+Die Klasse läuft mit Python 2.7 **und** mit Python >= 3.5, sie sollte daher auch unter PyGame und unter Jython[ (TigerJython](http://jython.tobiaskohn.ch/index-de.html)) lauffähig sein. Bisher einzige Abhängigkeiten sind die Module `math` und `random` aus der Standardbibliothek.
 
 ## Dokumentation
 
-Bisher sind folgende Funktionen in der Klasse implementiert:
+Bisher sind folgende Methoden in der Klasse implementiert:
 
 - `pvector.set(v)`: *Setter*-Methode
 - `pvector.get()`: *Getter*-Methode
@@ -27,7 +27,7 @@ Und als Klassenmethode:
 
 - `PVector.random2D()` Erzeugt einen zufälligen Vektor der Länge 1
 
-Außerdem die folgenden Methoden:
+Außerdem die folgenden »besonderen« Methoden:
 
 - `pvector.__add__`: Erlaubt die elementweise Addition zweier Vektoren in der Version `v3 = v1 + v2`
 - `pvector.__sub__`: Erlaubt die Subtraktion zweier zweier Vektoren in der Version `v3 = v1 - v2`
