@@ -29,8 +29,8 @@ Und als Klassenmethode:
 
 Außerdem die folgenden »besonderen« Methoden:
 
-- `pvector.__add__`: Erlaubt die elementweise Addition zweier Vektoren in der Version `v3 = v1 + v2`
-- `pvector.__sub__`: Erlaubt die Subtraktion zweier zweier Vektoren in der Version `v3 = v1 - v2`
+- `pvector.__add__`: Erlaubt die elementweise Addition zweier Vektoren in der Schreibweise `v3 = v1 + v2`
+- `pvector.__sub__`: Erlaubt die Subtraktion zweier zweier Vektoren in der Schreibweise `v3 = v1 - v2`
 - `pvector.__str__`: Gibt eine textliche Repräsentation des Vektors aus.
 
 Die Methoden sollten so aufgerufen werden können und funktionieren, wie es in der [Referenz zur PVector-Klasse](https://www.processing.org/reference/PVector.html) in der Processing-Dokumentation beschrieben ist. Es ist jedoch eine reine 2D-Klasse, mit 3D- oder noch höherwertigen Vektoren funktioniert sie nicht.
