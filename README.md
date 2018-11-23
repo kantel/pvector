@@ -1,6 +1,6 @@
 # PVector
 
-Eine einfache 2D-Vektorklasse für Python, die ich ursprünglich für die Nutzung mit [NodeBox 1](https://github.com/karstenw/nodebox-pyobjc) geschrieben hatte. Sie ist in Anlehnung an die PVector-Klasse von Processing (Java) geschrieben und so allgemein gehalten, daß sie auch mit anderen Bibliotheken laufen sollte. Getestet habe ich sie -- neben der NodeBox -- bisher mit Pythons Turtle-Modul und mit [P5 (Python)](https://github.com/p5py/p5).
+Eine einfache 2D-Vektorklasse für Python, die ich ursprünglich für die Nutzung mit [NodeBox 1](https://github.com/karstenw/nodebox-pyobjc) geschrieben hatte. Sie ist in Anlehnung an die PVector-Klasse von Processing (Java) geschrieben und so allgemein gehalten, daß sie auch mit anderen Bibliotheken laufen sollte. Getestet habe ich sie – neben der NodeBox – bisher mit Pythons Turtle-Modul und mit [P5 (Python)](https://github.com/p5py/p5).
 
 Die Klasse läuft mit Python 2.7 **und** mit Python >= 3.5, sie sollte daher auch unter PyGame und unter Jython[ (TigerJython](http://jython.tobiaskohn.ch/index-de.html)) lauffähig sein. Bisher einzige Abhängigkeiten sind die Module `math` und `random` aus der Standardbibliothek.
 
