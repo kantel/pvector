@@ -23,11 +23,11 @@ Bisher sind folgende Methoden in der Klasse implementiert:
 - `pvector.limit(max)`: Begrenzt die Magnitude eines Vektors auf max
 - `pvector.heading()`: Berechnet den Winkel der Rotation eines Vektors
 
-Und als Klassenmethode:
+Und als Klassenmethoden:
 
 - `PVector.random2D()`: Erzeugt einen zufälligen Vektor der Länge 1
-- `PVector.smult(v, s)`: Erzeugt einen neuen Vektor v1 = v*s
-- `PVector.sdiv(v, s)`: Erzeugt einen neuen Vektor v1 = v/s (s != 0)
+- `PVector.smult(v, s)`: Erzeugt einen neuen Vektor `v1 = v*s`
+- `PVector.sdiv(v, s)`: Erzeugt einen neuen Vektor `v1 = v/s` (`s != 0`)
 
 Außerdem die folgenden »besonderen« Methoden:
 
