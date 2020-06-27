@@ -116,3 +116,24 @@ class PVector():
         return(v)
 
 # -- /neu 23.11.18 -- #
+
+
+    # Klassenmethoden: Skalare Multiplikation und Division
+    
+    # Multiplikation mit einem Skalar
+    def smult(v, n):
+        x = v.x*n
+        y = v.y*n
+        result = PVector(x, y)
+        return(result)
+
+    # Division mit einem Skalar
+    def sdiv(v, n):
+        if n != 0:
+            x = v.x/n
+            y = v.y/n
+            result = PVector(x, y)
+            return(result)
+        else:
+            print("Error. Divison durch Null!")
+
